@@ -2,4 +2,17 @@
 *.pt
 
 # Wandb
-wandb/wandb/
+wandb/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
