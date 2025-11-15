@@ -1,0 +1,62 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            bjnt2s6uvixz5g1h9c601iow4phaluru:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 20
+                    memoryGb: 24
+                    name: Apple M4 Pro
+                    pcpuCores: 10
+                    ramTotalBytes: "25769803776"
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 14
+                cpu_count_logical: 14
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "259960885248"
+                email: lucky0110111@gmail.com
+                executable: /opt/homebrew/Caskroom/miniconda/base/envs/inthon/bin/python3
+                git:
+                    commit: 8a1b470f9f5f693df13c76ae9602eb9264306d2d
+                    remote: https://github.com/pizzazoa/inthon-dataton.git
+                host: jeongtaehuiui-MacBookPro.local
+                memory:
+                    total: "25769803776"
+                os: macOS-15.6.1-arm64-arm-64bit
+                program: /Users/taeheejeong/Desktop/inthon-dataton/train.py
+                python: CPython 3.10.19
+                root: /Users/taeheejeong/Desktop/inthon-dataton
+                startedAt: "2025-11-15T05:57:58.287005Z"
+                writerId: bjnt2s6uvixz5g1h9c601iow4phaluru
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 1
+                - 13
+                - 16
+                - 61
+            "4": 3.10.19
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": darwin-arm64
+batch_size:
+    value: 128
+d_model:
+    value: 256
+lr:
+    value: 0.002
+max_train_steps:
+    value: null
+num_epochs:
+    value: 50
+valid_every:
+    value: 200
